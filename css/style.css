@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+div{
+    display: block;
+}
+.header_area{
+    font-family: Rubik;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    background: #ffffff;
+}
+.nav-link{
+    color: black;
+    font-family: 'Rubik',sans-serif;
+}
+.nav-item.active .nav-link{
+    color:orange;
+}
+.container{
+    padding-top: 120px;
+    position: center;
+    padding-bottom: 120px;
+}
+.cha{
+    background-color:orange ;
+}
